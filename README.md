@@ -1,6 +1,6 @@
 ### Name:
 ```php
-/(name):\s?(\w+\s?)+/gi
+(name):\s?((\w+?\s?)+)
 ```
 
 ### Email:
@@ -23,9 +23,14 @@
 /(skype):\s?\w+/gi
 ```
 
+### Website:
+```php
+(http|https):\/\/(\w+\.)+(\w+)((\/\w+)+(\/)?)?
+```
+
 ### Indian Telephone Regex label + linefeed
 ```php
-/(phone):\s?\\r?\\n?\s?\d{2,3}-\d{6,8}/gi
+(phone):\s?\\r?\\n?\s?\d{2,6}-\d{6,12}
 ```
 
 ### Indian Mobile Regex label + linefeed
@@ -47,4 +52,3 @@
 ```php
 ([a-z]+):\s?((\w+\s)+)
 ```
-
