@@ -38,16 +38,6 @@
 (name):\s?\\r?\\n?(\w+\s?)+
 ```
 
------
-
-Add parsing rules
-
-Text Match After: ________
-
-Text Match Before: ________
-
-Text Match After Line Number: _______
-
 ### Matches All `key:value` pairs including Phone number except Email
 ```php
 ([a-z]+):\s?((\w+,?\s)+)?(\+?\d.*)?
