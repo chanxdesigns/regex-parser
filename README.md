@@ -20,7 +20,7 @@
 
 ### Skype id regex:
 ```php
-/(skype):\s?\w+/gi
+(skype):\s?(\w+)?(\.)?(\d+)?
 ```
 
 ### Website:
