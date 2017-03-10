@@ -43,14 +43,17 @@
 Add parsing rules
 
 Text Match After: ________
+
 Text Match Before: ________
+
 Text Match After Line Number: _______
 
-### Matches All `key:value` pairs except Email
+### Matches All `key:value` pairs including Phone number except Email
 ```php
 ([a-z]+):\s?((\w+,?\s)+)?(\+?\d.*)?
 ```
 
+### Matches All `key:value` pairs except Email & Phone
 ```php
 ([a-z]+):\s?((\w+\s)+)
 ```
